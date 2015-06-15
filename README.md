@@ -14,5 +14,5 @@ Input file formatting:
 
 output file formatting:
 
-day-of-week minute-of-day day-of-year availability
+10.1: day-of-week minute-of-day day-of-year availability
 
