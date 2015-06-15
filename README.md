@@ -16,7 +16,8 @@ incident_period (2.0)--> 10
 10--> incident_free_db.txt 10.1
 
 10.1 --> 11
-11 --> 11.1
+
+11 --> station_dis.txt 11.1
 
 Input file formatting:
 
