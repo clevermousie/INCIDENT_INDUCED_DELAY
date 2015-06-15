@@ -22,6 +22,7 @@ OCCUPANCY_DETECT (16)
 
 Flowchart
 1.0,4.0 --> 9
+
 9 --> day_long.txt 9.1     output.txt 9.2
 
 incident_period (2.0)--> 10
