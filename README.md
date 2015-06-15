@@ -45,4 +45,4 @@ output file formatting:
 
 15.1: flag, incident_id, up_station, dow_station
 
-16.1: incident_id, station, minute-of-year(start), minute-of-year(finish), severity, priority, impact
+16.1: incident_id, station, minute-of-year(start), minute-of-year(finish), total_delay, severity, priority, impact
