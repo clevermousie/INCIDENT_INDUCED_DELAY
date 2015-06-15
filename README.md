@@ -8,14 +8,21 @@ Incident_period (2.0)
 
 incident_info.txt (3.0)
 
-INCIDENT_FREE_DB (10)
+crash_input.txt (4.0)
 
+Total_delay (9)
+
+INCIDENT_FREE_DB (10)
 
 Station_distribution (11)
 
 distribution_estimator (15)
 
 OCCUPANCY_DETECT (16)
+
+Flowchart
+1.0,4.0 --> 9
+9 --> day_long.txt 9.1     output.txt 9.2
 
 incident_period (2.0)--> 10
 
@@ -38,6 +45,9 @@ Input file formatting:
 2: month1 dom1 year1 hour1 minute-of-hour1 month2 day-of-month2 year2 hour2 minute-of-hour2 availability ( yes -1, no -0)
 
 output file formatting:
+9.1: flag, incident_id, flag, day-of-weak
+
+9.2: incident_id, day-of-year2, day-to-calculate, crash-hour2, crash_minute2, up-station, down-station, station-coef, delay-at-end-of-incident
 
 10.1: day-of-week minute-of-day day-of-year availability
 
