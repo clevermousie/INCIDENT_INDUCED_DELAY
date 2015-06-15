@@ -1,12 +1,22 @@
 # INCIDENT_INDUCED_DELAY
 
-PEMS data file (0)
+PEMS data file (0.0)
 
-STA_ID (1)
+STA_ID (1.0)
 
-incident_period (2)--> 10
+Incident_period (2.0)
+
+INCIDENT_FREE_DB (10)
+
+
+Station_distribution (11)
+
+incident_period (2.0)--> 10
 
 10--> incident_free_db.txt 10.1
+
+10.1 --> 11
+11 --> 11.1
 
 Input file formatting:
 
@@ -16,3 +26,4 @@ output file formatting:
 
 10.1: day-of-week minute-of-day day-of-year availability
 
+11.1: day-of-week minute-of-day station total_delay total_delay_squared_root day_count
