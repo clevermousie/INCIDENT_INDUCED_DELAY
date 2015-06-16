@@ -46,6 +46,8 @@ Input file formatting:
 
 2: month1 dom1 year1 hour1 minute-of-hour1 month2 day-of-month2 year2 hour2 minute-of-hour2 availability ( yes -1, no -0)
 
+4: incident-name, date1(m/d/yy), time1(h:m), date2(m/d/yy),time2(h:m),severity, priority,impact, mp, availability
+
 output file formatting:
 9.1: flag, incident_id, flag, day-of-weak
 
