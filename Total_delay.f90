@@ -286,7 +286,7 @@ end module
                 
                             write(up_station_str,"(I6)") station_id(up_station)
                             write(down_station_str,"(I6)") station_id(down_station)
-                            open (15,file="./output/N_"//trim(adjustl(up_station_str))//"_DEL60.txt")
+                            open (15,file="../Downloads/output/N_"//trim(adjustl(up_station_str))//"_DEL60.txt")
                             
                             do j =1, line_num
                                 read(15,*) temp1,temp2,temp3,flow_ub
@@ -294,7 +294,7 @@ end module
                                 read(15,*) temp1,temp2,temp3,flow_ua
                             close (15)
                             !if (station_flag.eq.2) then
-                            open (17,file="./output/N_"//trim(adjustl(down_station_str))//"_DEL60.txt")
+                            open (17,file="../Downloads/output/N_"//trim(adjustl(down_station_str))//"_DEL60.txt")
                             do j= 1, line_num
                                 read(17,*) temp1,temp2,temp3,flow_db
                             end do
